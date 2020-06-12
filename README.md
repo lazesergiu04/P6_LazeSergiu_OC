@@ -18,3 +18,6 @@ Once the zip file is extracted, please access the index_en.html file using the p
 ## Screenshots 
 After opening the index file, the following should be displayed: 
 1. HomePage 
+![HomePage](https://user-images.githubusercontent.com/46926274/84506107-be014100-acb6-11ea-9afa-5d805ca75d6d.jpg)
+
+2. Search result ( the results are based on the input) 
