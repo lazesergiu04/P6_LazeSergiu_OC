@@ -21,3 +21,7 @@ After opening the index file, the following should be displayed:
 ![HomePage](https://user-images.githubusercontent.com/46926274/84506107-be014100-acb6-11ea-9afa-5d805ca75d6d.jpg)
 
 2. Search result ( the results are based on the input) 
+
+![Search result](https://user-images.githubusercontent.com/46926274/84506281-0587cd00-acb7-11ea-895d-9849bf1aa1a4.png)
+
+### Thank you! 
