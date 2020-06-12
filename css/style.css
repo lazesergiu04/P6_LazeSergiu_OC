@@ -1,0 +1,126 @@
+@media all and (max-width: 320px) {
+  #savedResult {
+    display: inline;
+    flex-flow: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+.title {
+  font-family: "Calisto MT";
+  margin: 1px;
+}
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#trash {
+  border: none;
+  background-color: #e5f7f5;
+}
+
+#myBooks {
+  text-align: center;
+}
+
+#btn-add {
+  border-radius: 10%;
+  background-color: #3ba5af;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: inline;
+}
+
+#newBook {
+  display: inline;
+}
+
+#searchForm {
+  display: none;
+  padding: 20px;
+  border-bottom: 1px solid #0f0f1f;
+}
+#searchResult {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+#bookTitle,
+#bookAuthor {
+  text-align: left;
+  width: 600px;
+  padding: 8px 15px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+#savedResult {
+  position: relative;
+  width: 330px;
+  height: 390px;
+  margin: 10px 8px 10px 8px;
+  padding: 10px 5px 10px 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #04aa94;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #293d3b;
+  background-color: rgb(222, 245, 242);
+  color: #000;
+  font-size: small;
+  text-align: left;
+}
+
+#resultItem {
+  border: 1px sienna solid;
+  width: 324px;
+}
+
+#bookmark {
+  size: 30px;
+  background-color: #e5f7f5;
+  border: none;
+}
+#logo {
+  width: 150px;
+  height: 150px;
+  align-self: center;
+}
+#btn-search,
+#btn-cancel {
+  width: 120px;
+  height: 40px;
+  border-radius: 10%;
+  background-color: #95acbe;
+  border-radius: 10%;
+  box-shadow: black;
+}
+#bookResult {
+  border-bottom: #6897bb solid 2px;
+  position: relative;
+  width: 440px;
+  height: 390px;
+  margin: 10px 8px 10px 8px;
+  padding: 10px 5px 10px 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #04aa94;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #293d3b;
+
+  color: #000;
+  font-size: small;
+  text-align: left;
+}
+
+#resultTitle {
+  font-size: 14px;
+}
