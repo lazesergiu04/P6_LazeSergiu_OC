@@ -1,10 +1,18 @@
 @media all and (max-width: 320px) {
-  #savedResult {
+  #savedResult{
     display: inline;
     flex-flow: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+}
+
+@media all and (max-device-width: 320px){
+  #bookTitle,#bookAuthor{
+    width:260px;
+    
   }
 }
 
@@ -57,7 +65,7 @@
 #bookTitle,
 #bookAuthor {
   text-align: left;
-  width: 600px;
+  width:600px;
   padding: 8px 15px;
   margin: 5px 0;
   box-sizing: border-box;
