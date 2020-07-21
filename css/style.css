@@ -9,12 +9,7 @@
 
 }
 
-@media all and (max-device-width: 320px){
-  #bookTitle,#bookAuthor{
-    width:260px;
-    
-  }
-}
+
 
 .title {
   font-family: "Calisto MT";
@@ -65,7 +60,7 @@
 #bookTitle,
 #bookAuthor {
   text-align: left;
-  width:600px;
+  width:100%;
   padding: 8px 15px;
   margin: 5px 0;
   box-sizing: border-box;
